@@ -52,3 +52,4 @@ app.use('/cursos', cursosRoutes);
 
 const professoresRoutes = require('./routes/professores');
 app.use('/professores', professoresRoutes);
+

@@ -1,3 +1,17 @@
+# Resposta aula 6:
+
+1. **Model, Controller e View**
+   O **Model** cuida dos dados: define esquemas e acessa o banco. O **Controller** recebe a requisição, usa o Model para ler/escrever dados e escolhe se responde com HTML ou JSON. A **View** formata o HTML (templates, formulários, tabelas) para o usuário. Usuário → Controller → Model → Controller → View → usuário.
+
+2. **JSON entre cliente e servidor**
+   Com `express.json()`, o Controller lê `req.body` já em objeto JS. Exemplo: `GET /api/alunos` chama `AlunoModel.findAll()` e faz `res.json(lista)` para retornar um array JSON. `POST /api/alunos` usa `req.body` para criar o registro e devolve `res.status(201).json(novo)`.
+
+3. **HTML simples em Node.js**
+   Formulários e tabelas HTML são universais, rápidos e funcionam mesmo sem frameworks ou JS avançado. Eles usam validação nativa do navegador e oferecem interface mínima funcional. Isso mantém o app leve, compatível e fácil de evoluir para front-ends mais ricos depois.
+
+
+
+
 # Boilerplate MVC em Node.js com PostgreSQL
 
 Este projeto é um boilerplate básico para uma aplicação Node.js seguindo o padrão MVC (Model-View-Controller), utilizando PostgreSQL como banco de dados.

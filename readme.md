@@ -10,8 +10,6 @@
    Formulários e tabelas HTML são universais, rápidos e funcionam mesmo sem frameworks ou JS avançado. Eles usam validação nativa do navegador e oferecem interface mínima funcional. Isso mantém o app leve, compatível e fácil de evoluir para front-ends mais ricos depois.
 
 
-
-
 # Boilerplate MVC em Node.js com PostgreSQL
 
 Este projeto é um boilerplate básico para uma aplicação Node.js seguindo o padrão MVC (Model-View-Controller), utilizando PostgreSQL como banco de dados.
